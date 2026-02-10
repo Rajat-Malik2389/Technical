@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ValidationService } from "../Services/ValidationServices.jsx";
+import { ValidationService } from "../Services/ValidationServices";
 
 
 function LoginPage({ onSwitchToSignup }) {
