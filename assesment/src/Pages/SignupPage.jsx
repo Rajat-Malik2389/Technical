@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ValidationService } from '../Services/ValidationService';
+import { ValidationService } from '../Services/ValidationServices';
 
 function SignupPage({ onSwitchToLogin }) {
   const [name, setName] = useState('');
